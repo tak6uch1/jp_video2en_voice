@@ -14,7 +14,6 @@ for src in jp_words:
     print(dst.text)
 
 with open('output/en.txt', 'w') as f:
-    #f.writelines(en_words)
     for src in en_words:
         f.writelines(src + "\n")
 
