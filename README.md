@@ -10,6 +10,7 @@ But for windows and linux, the 3_say.py does not work.
 
 Scipy, SpeechRecognition and GoogleTrans are needed.
 GoogleTrans needs the following fixed version, otherwise you will see an execution error.
+
     conda install scipy
     pip install SpeechRecognition
     pip install googletrans==4.0.0-rc1
